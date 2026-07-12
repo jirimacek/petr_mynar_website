@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Coaching - Petr Mynář</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', Arial, sans-serif;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        padding: 20px 60px;
+        background-color: white;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    nav a:hover {
+        color: #d85a30;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: calc(100vh - 80px);
+        text-align: center;
+        padding: 20px;
+    }
+
+    button {
+        background-color: #d85a30;
+        color: white;
+        border: none;
+        padding: 14px 32px;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 16px;
+    }
+
+    button:hover {
+        background-color: #a3401f;
+    }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Úvod</a></li>
+        <li><a href="#">Hero Hero</a></li>
+        <li><a href="online-coaching.html">Online coaching</a></li>
+        <li><a href="#">Podcast</a></li>
+        <li><a href="#">Kontakt</a></li>
+    </ul>
+</nav>
+
+<div class="hero">
+    <h1>Online Jiu-Jitsu Coaching</h1>
+    <h2>Individuální online coaching v brazilském jiu-jitsu</h2>
+    <p>Nyní si můžete rezervovat konzultace, kde si probereme Vaše cíle, jak Vám s nimi můžu konkrétně pomoct a více</p>
+    <button>Rezervovat konzultaci</button>
+</div>
+
+</body>
+</html>
