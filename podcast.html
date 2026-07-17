@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast - Petr Mynář</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', Arial, sans-serif;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        padding: 20px 60px;
+        background-color: white;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+    nav a:hover {
+        color: #d85a30;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: calc(100vh - 80px);
+        text-align: center;
+        padding: 60px 20px 20px 20px;
+    }
+    .video-embed {
+        border-radius: 8px;
+        margin-top: 16px;
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 16 / 9;
+        display: block;
+    }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Úvod</a></li>
+        <li><a href="hero-hero.html">HeroHero</a></li>
+        <li><a href="online-coaching.html">Online coaching</a></li>
+        <li><a href="podcast.html">Podcast</a></li>
+        <li><a href="#">Kontakt</a></li>
+    </ul>
+</nav>
+
+<div class="hero">
+    <h1>Jiu Jitsu Povídání</h1>
+    <p>V podcastu Jiu Jitsu Povídání spolu s Antonem Orlovem rozebíráme dění v BJJ – od zápasů na domácí scéně po velké zahraniční turnaje. Sdílíme svoje zážitky a zkušenosti z kempů, občas si zveme hosty a pravidelně děláme i QnA.</p>
+    <p>Tady je jedna z epizod.</p>
+    <iframe class="video-embed" src="https://www.youtube.com/embed/LjBGZ209rwI?si=K7VeA8Z0h-anSxYC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
